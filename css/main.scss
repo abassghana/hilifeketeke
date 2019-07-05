@@ -215,7 +215,8 @@ textarea:focus {
 }
 
 // mobile view
-@media only screen and (min-device-width: 320px) and (max-device-width: 776px) {
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 776px) {
     .jumbotron {
         background-image: url(/images/duotone_ovooeb_c_scale\,w_447.png);
         background-repeat: no-repeat;
@@ -237,13 +238,6 @@ textarea:focus {
             font-size: 40px;
             text-transform: uppercase;
             color: $bodyColor;
-        }
-        .bg-image {
-            background-image: url(/images/duotone_ovooeb_c_scale\,w_341.png);
-            background-repeat: repeat;
-            background-attachment: fixed;
-            background-position: center;
-            background-color: $jumbo-bg;
         }
     }
     .header-text {
@@ -268,5 +262,13 @@ textarea:focus {
     }
     .txt-rotate {
         color: black;
+        font-weight: bold;
     }
-}
+    .bg-image {
+        background-image: url(/images/duotone_ovooeb_c_scale\,w_341.png);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: $jumbo-bg;
+    }
+} */
