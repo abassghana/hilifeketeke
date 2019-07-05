@@ -213,3 +213,56 @@ input[type=email]:focus {
 textarea:focus {
     @include formFocus;
 }
+
+// mobile view
+@media only screen and (min-device-width: 320px) and (max-device-width: 776px) {
+    .jumbotron {
+        background-image: url(https://lh3.googleusercontent.com/UKKW0_TnCoouIIOIyvDo3IXIlGwdmfiM-7C2Cyse_zteY9K3MzUdsg52-KeAWB4Tb6yvymob-cvh6UgsrVBGOt_cZaP-ZTZU7Ti3-oWI7NKzByO4RGDBzY3nhUSDclboPS6_GpN3mQ=w2400);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        margin-top: 1%;
+        // top: 30px;
+        // padding-bottom: 70px;
+        background-color: $jumbo-bg;
+        text-align: left;
+        h1 {
+            font-family: 'Tulpen One', cursive;
+            font-size: 40px;
+            text-transform: uppercase;
+            color: $bodyColor;
+        }
+        h2 {
+            font-family: 'Tulpen One', cursive;
+            font-size: 40px;
+            text-transform: uppercase;
+            color: $bodyColor;
+        }
+        .bg-image {
+            background-image: url(https://lh3.googleusercontent.com/IgwfPRWy3Z9AIkDxw_Yxr0XAVQyOK_BmnW6hfeeDdrK8AJvRj1k1auN443oobXxX_s8KpYWmFdswApmtqHC0RVer1UZW0Je_tNgSPmln-5Bq_teE1Z6cEZoZUBweK0PDWZBMMc5I6A=w2400);
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+    }
+    .header-text {
+        text-align: center;
+        font-family: dosis;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: $text-Color;
+    }
+    .countd {
+        text-align: center;
+        font-family: 'Tulpen One', cursive;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    .card {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        // width: 50%;
+    }
+}
