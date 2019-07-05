@@ -1,0 +1,18 @@
+@mixin centerText {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@mixin formInput {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid $jumbo-bg;
+    color: $text-Color;
+}
+
+@mixin formFocus {
+    background-color: $text-Color;
+    border: none;
+    color: red;
+}

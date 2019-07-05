@@ -1,0 +1,215 @@
+@import "partials/variables";
+@import "partials/footer";
+@import "partials/mobile";
+@import "partials/mixins";
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Sacramento|Tulpen+One&display=swap');
+body {
+    color: $text-Color;
+    background: $bodyColor;
+}
+
+.nav-link {
+    font-family: 'Tulpen One', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.bg-primary {
+    background-color: $text-Color!important;
+}
+
+.txt-rotate {
+    color: goldenrod;
+}
+
+.jumbotron {
+    background-image: url(https://lh3.googleusercontent.com/8Fcw5Hm79biJuGW9RXvHT4AImOXRd0Y7H3oPM_fWrvbPphmkUqE4rQZzp8k6aAvFoSMcnLo-R43YGO22047ICHo9bqF_ui1Nh-J4q3Jo37s9KP9mjxxCa2km28Mx30pTCyB2LWyiig=w2400);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 1%;
+    padding-top: 70px;
+    background-color: $jumbo-bg;
+    text-align: left;
+    h1 {
+        font-family: 'Tulpen One', cursive;
+        font-size: 186px;
+        text-transform: uppercase;
+        color: white;
+    }
+    h2 {
+        font-family: 'Tulpen One', cursive;
+        font-size: 60px;
+        text-transform: uppercase;
+        color: white;
+    }
+}
+
+.img-bass {
+    width: 15%;
+    height: 30%;
+}
+
+.header-text {
+    @include centerText;
+    font-family: dosis;
+    font-size: 64px;
+    color: $text-Color;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.card-text {
+    @include centerText;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.card-body {
+    background: $jumbo-bg;
+}
+
+.logo {
+    width: 100x;
+    height: 100px;
+}
+
+.otherHalf {
+    text-align: center;
+}
+
+.countd {
+    @include centerText;
+    font-family: 'Tulpen One', cursive;
+    font-size: 60px;
+}
+
+.bg-image {
+    background-image: url(https://lh3.googleusercontent.com/8Fcw5Hm79biJuGW9RXvHT4AImOXRd0Y7H3oPM_fWrvbPphmkUqE4rQZzp8k6aAvFoSMcnLo-R43YGO22047ICHo9bqF_ui1Nh-J4q3Jo37s9KP9mjxxCa2km28Mx30pTCyB2LWyiig=w2400);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+// counter glow effect
+.glow {
+    font-size: 80px;
+    color: $bodyColor;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px gold, 0 0 40px gold, 0 0 50px gold, 0 0 60px gold, 0 0 70px gold;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green, 0 0 80px green;
+    }
+}
+
+// team badge
+.badge {
+    background-color: black;
+}
+
+// hover states
+a:link {
+    color: green;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: green;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: $jumbo-bg;
+}
+
+
+/* selected link */
+
+a:active {
+    color: yellow;
+}
+
+.card:hover {
+    color: $bodyColor;
+}
+
+.card-body:hover {
+    background: $text-Color;
+}
+
+.btn-link:hover {
+    color: $jumbo-bg;
+}
+
+.btn-link {
+    color: $text-Color;
+}
+
+// forms
+label {
+    text-decoration: orange wavy underline;
+}
+
+.myForm {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    border: none;
+    margin: 5px;
+    border-bottom: 6px;
+    color: grey;
+    font-family: 'Tulpen One', cursive;
+    font-size: 25px;
+}
+
+input[type=text] {
+    @include formInput;
+}
+
+input[type=email] {
+    @include formInput;
+}
+
+textarea {
+    @include formInput;
+}
+
+input[type=submit] {
+    color: $text-Color;
+    background-color: orange;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    @include formFocus;
+}
+
+input[type=text]:focus {
+    @include formFocus;
+}
+
+input[type=email]:focus {
+    @include formFocus;
+}
+
+textarea:focus {
+    @include formFocus;
+}

@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/*FOOTER*/
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|Sacramento|Tulpen+One&display=swap");
+footer {
+  background: #02111B;
+  color: white;
+  margin-top: 100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+/*SOCİAL İCONS*/
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* footer social icons */
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoInstagram:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoInstagram:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 776px) {
+  .jumbotron {
+    background-image: url(https://lh3.googleusercontent.com/UKKW0_TnCoouIIOIyvDo3IXIlGwdmfiM-7C2Cyse_zteY9K3MzUdsg52-KeAWB4Tb6yvymob-cvh6UgsrVBGOt_cZaP-ZTZU7Ti3-oWI7NKzByO4RGDBzY3nhUSDclboPS6_GpN3mQ=w2400);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    margin-top: 1%;
+    background-color: #B34A1C;
+    text-align: left;
+  }
+  .jumbotron h1 {
+    font-family: 'Tulpen One', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+  }
+  .jumbotron h2 {
+    font-family: 'Tulpen One', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+  }
+  .jumbotron .bg-image {
+    background-image: url(https://lh3.googleusercontent.com/IgwfPRWy3Z9AIkDxw_Yxr0XAVQyOK_BmnW6hfeeDdrK8AJvRj1k1auN443oobXxX_s8KpYWmFdswApmtqHC0RVer1UZW0Je_tNgSPmln-5Bq_teE1Z6cEZoZUBweK0PDWZBMMc5I6A=w2400);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .header-text {
+    text-align: center;
+    font-family: dosis;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #02111B;
+  }
+  .countd {
+    text-align: center;
+    font-family: 'Tulpen One', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .card {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+body {
+  color: #02111B;
+  background: white;
+}
+
+.nav-link {
+  font-family: 'Tulpen One', cursive;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.bg-primary {
+  background-color: #02111B !important;
+}
+
+.txt-rotate {
+  color: goldenrod;
+}
+
+.jumbotron {
+  background-image: url(https://lh3.googleusercontent.com/8Fcw5Hm79biJuGW9RXvHT4AImOXRd0Y7H3oPM_fWrvbPphmkUqE4rQZzp8k6aAvFoSMcnLo-R43YGO22047ICHo9bqF_ui1Nh-J4q3Jo37s9KP9mjxxCa2km28Mx30pTCyB2LWyiig=w2400);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-top: 1%;
+  padding-top: 70px;
+  background-color: #B34A1C;
+  text-align: left;
+}
+
+.jumbotron h1 {
+  font-family: 'Tulpen One', cursive;
+  font-size: 186px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.jumbotron h2 {
+  font-family: 'Tulpen One', cursive;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.img-bass {
+  width: 15%;
+  height: 30%;
+}
+
+.header-text {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: dosis;
+  font-size: 64px;
+  color: #02111B;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.card-text {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+.card-body {
+  background: #B34A1C;
+}
+
+.logo {
+  width: 100x;
+  height: 100px;
+}
+
+.otherHalf {
+  text-align: center;
+}
+
+.countd {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Tulpen One', cursive;
+  font-size: 60px;
+}
+
+.bg-image {
+  background-image: url(https://lh3.googleusercontent.com/8Fcw5Hm79biJuGW9RXvHT4AImOXRd0Y7H3oPM_fWrvbPphmkUqE4rQZzp8k6aAvFoSMcnLo-R43YGO22047ICHo9bqF_ui1Nh-J4q3Jo37s9KP9mjxxCa2km28Mx30pTCyB2LWyiig=w2400);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.glow {
+  font-size: 80px;
+  color: white;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px gold, 0 0 40px gold, 0 0 50px gold, 0 0 60px gold, 0 0 70px gold;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green, 0 0 80px green;
+  }
+}
+
+.badge {
+  background-color: black;
+}
+
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: #B34A1C;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+.card:hover {
+  color: white;
+}
+
+.card-body:hover {
+  background: #02111B;
+}
+
+.btn-link:hover {
+  color: #B34A1C;
+}
+
+.btn-link {
+  color: #02111B;
+}
+
+label {
+  -webkit-text-decoration: orange wavy underline;
+          text-decoration: orange wavy underline;
+}
+
+.myForm {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  border: none;
+  margin: 5px;
+  border-bottom: 6px;
+  color: grey;
+  font-family: 'Tulpen One', cursive;
+  font-size: 25px;
+}
+
+input[type=text] {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #B34A1C;
+  color: #02111B;
+}
+
+input[type=email] {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #B34A1C;
+  color: #02111B;
+}
+
+textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #B34A1C;
+  color: #02111B;
+}
+
+input[type=submit] {
+  color: #02111B;
+  background-color: orange;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #02111B;
+  border: none;
+  color: red;
+}
+
+input[type=text]:focus {
+  background-color: #02111B;
+  border: none;
+  color: red;
+}
+
+input[type=email]:focus {
+  background-color: #02111B;
+  border: none;
+  color: red;
+}
+
+textarea:focus {
+  background-color: #02111B;
+  border: none;
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
