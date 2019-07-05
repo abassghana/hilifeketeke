@@ -406,6 +406,7 @@ textarea:focus {
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
+    background-color: #B34A1C;
   }
   .header-text {
     text-align: center;
@@ -425,6 +426,9 @@ textarea:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .txt-rotate {
+    color: black;
   }
 }
 /*# sourceMappingURL=main.css.map */
