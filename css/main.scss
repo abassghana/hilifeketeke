@@ -50,6 +50,11 @@ body {
     height: 30%;
 }
 
+.lead {
+    font-family: dosis;
+    text-transform: uppercase;
+}
+
 .header-text {
     @include centerText;
     font-family: dosis;
