@@ -68,6 +68,10 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+.smallText {
+    font-size: 45%;
+}
+
 .card-text {
     @include centerText;
     font-family: 'Poiret One', cursive;
