@@ -2,7 +2,7 @@
 @import "partials/footer";
 @import "partials/mobile";
 @import "partials/mixins";
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Sacramento|Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Sacramento|Tulpen+One&display=swap|Dosis:300,400,500,600,700&display=swap');
 body {
     color: $text-Color;
     background: $bodyColor;
@@ -57,7 +57,7 @@ body {
 
 .header-text {
     @include centerText;
-    font-family: dosis;
+    font-family: 'Dosis', sans-serif;
     // font-size: 64px;
     color: $text-Color;
 }
@@ -68,6 +68,7 @@ body {
     font-family: dosis;
     text-transform: uppercase;
     color: $text-Color;
+    font-family: 'Dosis', sans-serif;
 }
 
 hr {
@@ -258,14 +259,14 @@ textarea:focus {
     }
     .header-text {
         text-align: center;
-        font-family: dosis;
+        font-family: 'Dosis', sans-serif;
         text-transform: uppercase;
         color: $text-Color;
     }
     .middleT {
         font-size: 70px;
         text-align: center;
-        font-family: 'Tulpen One', cursive;
+        font-family: 'Dosis', sans-serif;
         text-transform: uppercase;
         color: $text-Color;
     }

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*FOOTER*/
-@import url("https://fonts.googleapis.com/css?family=Poiret+One|Sacramento|Tulpen+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|Sacramento|Tulpen+One&display=swap|Dosis:300,400,500,600,700&display=swap");
 footer {
   background: #02111B;
   color: white;
@@ -211,7 +211,7 @@ body {
 .header-text {
   text-align: center;
   text-transform: uppercase;
-  font-family: dosis;
+  font-family: 'Dosis', sans-serif;
   color: #02111B;
 }
 
@@ -221,6 +221,7 @@ body {
   font-family: dosis;
   text-transform: uppercase;
   color: #02111B;
+  font-family: 'Dosis', sans-serif;
 }
 
 hr {
@@ -420,14 +421,14 @@ textarea:focus {
   }
   .header-text {
     text-align: center;
-    font-family: dosis;
+    font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
     color: #02111B;
   }
   .middleT {
     font-size: 70px;
     text-align: center;
-    font-family: 'Tulpen One', cursive;
+    font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
     color: #02111B;
   }
