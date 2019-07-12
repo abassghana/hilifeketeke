@@ -33,13 +33,13 @@ body {
     text-align: left;
     h1 {
         font-family: 'Tulpen One', cursive;
-        font-size: 186px;
+        // font-size: 186px;
         text-transform: uppercase;
         color: white;
     }
     h2 {
         font-family: 'Tulpen One', cursive;
-        font-size: 60px;
+        // font-size: 60px;
         text-transform: uppercase;
         color: white;
     }
@@ -58,7 +58,15 @@ body {
 .header-text {
     @include centerText;
     font-family: dosis;
-    font-size: 64px;
+    // font-size: 64px;
+    color: $text-Color;
+}
+
+.middleT {
+    font-size: 70px;
+    text-align: center;
+    font-family: dosis;
+    text-transform: uppercase;
     color: $text-Color;
 }
 
@@ -94,7 +102,7 @@ hr {
 .countd {
     @include centerText;
     font-family: 'Tulpen One', cursive;
-    font-size: 60px;
+    // font-size: 60px;
 }
 
 .bg-image {
@@ -106,7 +114,7 @@ hr {
 
 // counter glow effect
 .glow {
-    font-size: 80px;
+    // font-size: 80px;
     color: $bodyColor;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -237,13 +245,13 @@ textarea:focus {
         text-align: left;
         h1 {
             font-family: 'Tulpen One', cursive;
-            font-size: 40px;
+            // font-size: 40px;
             text-transform: uppercase;
             color: $bodyColor;
         }
         h2 {
             font-family: 'Tulpen One', cursive;
-            font-size: 40px;
+            // font-size: 40px;
             text-transform: uppercase;
             color: $bodyColor;
         }
@@ -251,14 +259,20 @@ textarea:focus {
     .header-text {
         text-align: center;
         font-family: dosis;
-        font-size: 40px;
+        text-transform: uppercase;
+        color: $text-Color;
+    }
+    .middleT {
+        font-size: 70px;
+        text-align: center;
+        font-family: 'Tulpen One', cursive;
         text-transform: uppercase;
         color: $text-Color;
     }
     .countd {
         text-align: center;
         font-family: 'Tulpen One', cursive;
-        font-size: 40px;
+        // font-size: 40px;
         text-transform: uppercase;
     }
     .card {

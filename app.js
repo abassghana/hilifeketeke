@@ -56,7 +56,7 @@ window.onload = function() {
 };
 
 
-var count = new Date("Sep 6,2019 00:00:00").getTime();
+var count = new Date("Sep 6,2019 10:00:00").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
     var d = count - now;
@@ -106,3 +106,10 @@ $(document).ready(function() {
     })
 
 })
+
+
+// Fittext
+$(".mainT").fitText(.65);
+$(".semiT").fitText(1.25);
+$(".header-text").fitText(1.70);
+$(".glow").fitText(1.80);
