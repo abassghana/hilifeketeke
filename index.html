@@ -65,10 +65,8 @@
     </nav>
 
     <!-- conatiner begin -->
-    <div class="container" id="top">
+    <!-- <div class="container" id="top">
         <div class="jumbotron ">
-            <!-- <img src="/images/duotone_ovooeb_c_scale,w_50.png " class="float-right img-bass " alt=" ">
-            <img src="/images/duotone_ovooeb_c_scale,w_50.png " alt=" "> -->
 
             <h1 class="display mainT">hilife
                 <span class="txt-rotate" data-period="2000" data-rotate='[ "keteke.", "Legends.", "Heroes.", "Music.", "fun!" ]'></span>
@@ -77,7 +75,24 @@
 
 
         </div>
-    </div>
+    </div> -->
+    <!-- videobg -->
+    <header id="top">
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay loop id="myVideo" poster="/images/ab crenstil_Moment.jpg">
+          <source src="https://sankonnectworks.s3.amazonaws.com/ab+crenstil+preview+videoweb.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+
+                    <p class="lead mb-0">be part of this experience</p>
+                    <button id="myBtn" onclick="myFunction()">Pause</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <hr>
     <!-- <div class="container bg-image">
         <h2 class="header-text">count down to the launch</h2>
@@ -469,6 +484,20 @@
             </div>
         </footer>
     </div>
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
