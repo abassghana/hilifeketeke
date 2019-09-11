@@ -284,6 +284,11 @@ hr {
   }
 }
 
+#team {
+  width: 100%;
+  background: linear-gradient(45deg, rgba(175, 113, 210, 0.55) 0%, rgba(175, 113, 210, 0.55) 25%, rgba(183, 131, 182, 0.55) 25%, rgba(183, 131, 182, 0.55) 50%, rgba(192, 150, 153, 0.55) 50%, rgba(192, 150, 153, 0.55) 75%, rgba(200, 168, 125, 0.55) 75%, rgba(200, 168, 125, 0.55) 100%), linear-gradient(135deg, #71c954 0%, #71c954 25%, #94b54a 25%, #94b54a 50%, #b8a03f 50%, #b8a03f 75%, #db8c35 75%, #db8c35 100%);
+}
+
 .badge {
   background-color: black;
 }

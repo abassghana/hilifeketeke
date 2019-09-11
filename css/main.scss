@@ -133,6 +133,11 @@ hr {
 }
 
 // team badge
+#team {
+    width: 100%;
+    background: $team-bg;
+}
+
 .badge {
     background-color: black;
 }
