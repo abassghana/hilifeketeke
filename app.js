@@ -56,7 +56,7 @@ window.onload = function() {
 };
 
 
-var count = new Date("Sep 6,2019 10:00:00").getTime();
+var count = new Date("Oct 25,2019 16:00:00").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
     var d = count - now;
